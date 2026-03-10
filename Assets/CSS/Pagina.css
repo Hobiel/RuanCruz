@@ -1,0 +1,273 @@
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:Arial, sans-serif;
+font-weight:bolder;
+}
+
+/* BODY */
+
+body{
+background:#0F0F0F;
+color:#F5F5F5;
+}
+
+/* HERO */
+
+.hero{
+height:60vh;
+background:url(../IMG/snapinsta.com.br.instagram.photo.20260308.201156.jpg) center 15%/cover;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+color:white;
+position:relative;
+border-bottom:2px solid #A57C1B;
+border-top:2px solid #A57C1B;
+}
+
+.hero:before{
+content:"";
+position:absolute;
+width:100%;
+height:100%;
+background:linear-gradient(
+rgba(0,0,0,0.85),
+rgba(0,0,0,0.4)
+);
+}
+
+.hero div{
+position:relative;
+z-index:1;
+}
+
+.hero h1{
+font-size:40px;
+letter-spacing:3px;
+margin-bottom:10px;
+color:#D4AF37;
+}
+
+/* INTRO */
+
+.intro{
+padding:60px 20px;
+text-align:center;
+background:#1A1A1A;
+border-bottom:2px solid #A57C1B;
+}
+
+/* PORTFOLIO */
+
+.portfolio{
+text-align: center;
+padding:60px;
+background:#0F0F0F;
+border-bottom:2px solid #A57C1B;
+}
+
+.grid{
+display:grid;
+justify-content: center;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+padding:40px;
+}
+
+.card iframe{
+width:70%;
+aspect-ratio:9/16;
+border-radius:20px;
+object-fit: cover;
+border:2px solid #A57C1B;
+}
+
+/* HELP */
+
+.help{
+background: #D4AF37;
+color:#0F0F0F;
+text-align:center;
+padding-bottom: 60px;
+padding-top: 60px;
+font-size:22px;
+border-bottom:2px solid #A57C1B;
+}
+
+/* CLIENTS */
+
+.clients{
+padding:50px;
+text-align:center;
+background:#1A1A1A;
+border-bottom:2px solid #A57C1B;
+}
+
+.logos{
+display:flex;
+justify-content:center;
+gap:40px;
+margin-top:20px;
+flex-wrap:wrap;
+}
+
+.Client-link{
+text-decoration:none;
+color:#0F0F0F;
+background:#D4AF37;
+border:2px solid #A57C1B;
+padding:12px 25px;
+border-radius:10px;
+transition:0.3s;
+}
+
+.Client-link:hover{
+transform:scale(1.1);
+background:#A57C1B;
+border:2px solid #D4AF37;
+color:white;
+}
+
+/* ABOUT */
+
+.about{
+padding:60px;
+text-align:center;
+background:#0F0F0F;
+border-bottom:2px solid #A57C1B;
+}
+
+.team{
+display:flex;
+justify-content:center;
+margin-top:30px;
+}
+
+.member img{
+width:150px;
+height:150px;
+object-fit:cover;
+border-radius:50%;
+border:3px solid #D4AF37;
+transition: 0.3s;
+}
+
+.member img:hover{
+width: 155px;
+height: 155px;
+}
+
+.btn2 {
+gap:10px;
+padding:2px 2px;
+text-decoration:none;
+font-weight:bold;
+border-radius:6px;
+transition:0.3s;
+background:#D4AF37;
+color:#0F0F0F;
+border:2px solid #A57C1B;
+}
+
+.btn2:hover{
+transform:scale(1.1);
+background:#A57C1B;
+border:2px solid #D4AF37;
+color:white;
+}
+
+/* WHY */
+
+.why{
+padding:60px;
+background:#1A1A1A;
+text-align:center;
+border-bottom:2px solid #A57C1B;
+}
+
+.features{
+display:flex;
+gap:30px;
+justify-content:center;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+.features div{
+background:#0F0F0F;
+border:2px solid #A57C1B;
+border-radius:12px;
+padding:25px;
+width:270px;
+transition:0.3s;
+}
+
+.features div:hover{
+transform:translateY(-5px);
+border-color:#D4AF37;
+}
+
+.features h3{
+color:#D4AF37;
+margin-bottom:10px;
+}
+
+.features p{
+font-weight:normal;
+line-height:1.4;
+}
+
+/* CTA */
+
+.cta{
+background:#D4AF37;
+text-align:center;
+padding:80px;
+color:#0F0F0F;
+border-bottom:2px solid #A57C1B;
+}
+
+.cta-buttons{
+display:flex;
+justify-content:center;
+gap:20px;
+margin-top:30px;
+flex-wrap:wrap;
+}
+
+/* BOTÕES */
+
+.btn{
+display:flex;
+align-items:center;
+gap:10px;
+padding:12px 25px;
+text-decoration:none;
+font-weight:bold;
+border-radius:6px;
+transition:0.3s;
+background:#D4AF37;
+color:#0F0F0F;
+border:2px solid #A57C1B;
+}
+
+.btn:hover{
+transform:scale(1.1);
+background:#A57C1B;
+border:2px solid #58420f;
+color:white;
+}
+
+/* FOOTER */
+
+footer{
+background:#0A0A0A;
+color:#D4AF37;
+text-align:center;
+padding:20px;
+border-top:2px solid #A57C1B;
+}
+
